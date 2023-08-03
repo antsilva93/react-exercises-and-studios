@@ -1,7 +1,7 @@
 import styles from './Ingredients.module.css';
 
 export default function RecipeIngredients() {
-    let ingredients = ['36g espresso', '12g Earl Grey syrup', '2 drops saline', '0.2g Angostura Orange Bitters'];
+    let ingredients = ['36g espresso', '12g Earl Grey syrup', '2 drops saline', '0.2g Angostura Orange Bitters', 'ice'];
     return (
         <div>
             <h3>Recipe Ingredients</h3>

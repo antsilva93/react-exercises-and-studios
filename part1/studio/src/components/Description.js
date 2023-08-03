@@ -6,8 +6,8 @@ function RecipeAuthor() {
     let authorPhoto = 'https://images.squarespace-cdn.com/content/v1/5d39c0ab87164d000167b2e2/1600945711706-RICUCBD9HQ9PEWESXJ8E/_DSC4757.jpg?format=2500w';
     let authorName = 'James Hoffmann';
     return (
-        <div className = {StyleSheet.RecipeAuthorBlock}>
-            <img src={authorPhoto} alt = "A portrait of James Hoffmann" className={StyleSheet.imageUpdates} />
+        <div className = {styles.RecipeAuthorBlock}>
+            <img src={authorPhoto} alt = "A portrait of James Hoffmann" className={styles.imageUpdates} />
             <div>
                 <h3>{authorName}</h3>
                 <a href={authorLink}>Weird Coffee Science: Caffe Shakerato</a>
