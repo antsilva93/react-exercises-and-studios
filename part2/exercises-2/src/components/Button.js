@@ -1,10 +1,13 @@
 import './styles.css';
 
 function Button() {
+   const function onLearnMore() => {
+      alert('splish splash');
+   }
 
    return ( 
          <button>
-            Learn More
+            x
          </button>
    );
 }
