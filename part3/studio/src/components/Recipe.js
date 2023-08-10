@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.acouplecooks.com/fernet-sour-cocktail/";
+   let authorPhoto = "https://www.acouplecooks.com/wp-content/uploads/2021/06/bio.jpg";
+   let authorName = "Sonja Overhiser";
 
    return (
       <div>
@@ -15,7 +15,7 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ['Fernet-Branca', 'Green Chartreuse', 'lime juice', 'simple syrup', 'ice'];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -34,8 +34,8 @@ const RecipeDescription = () => {
    return (
       <div> 
          <div>
-            <h1></h1>
-            <p></p>
+            <h1>Fernet Sour</h1>
+            <p>A uniquely sour and herbacious cocktail</p>
          </div>
          <div className="recipePhotoBlock">
             <RecipeIngredients />
@@ -47,7 +47,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://www.acouplecooks.com/wp-content/uploads/2020/09/Fernet-Cocktail-003.jpg" alt="" className="imageUpdates"/>
    );
 }
 
